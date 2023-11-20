@@ -1,0 +1,52 @@
+.filters {
+  width: 100%;
+  background-color: #ffffed;
+  display: flex;
+  flex: row;
+  justify-content: center;
+}
+
+.hompage {
+  background-color: #ffffed;
+  padding: 20px;
+  font-family: century gothic
+}
+
+.filters select {
+  width: 30%;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 4px;
+  font-family: century gothic;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+  padding: 15px;
+}
+
+.quick-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, .8);
+}
+.quicklink-h {
+  margin-top: 0;
+}
+.quick-link-comp p {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+.quick-link-comp {
+  cursor: pointer;
+}
+.quick-links-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+}

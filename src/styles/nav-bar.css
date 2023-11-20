@@ -1,0 +1,45 @@
+.nav-bar {
+  padding: 0 100px 0 100px;
+  background-color: #0d0ddd;
+}
+
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.nav-bar nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-bar nav ul li a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-bar nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-bar nav ul li a:hover {
+  color: #f00;
+}
+
+.nav-bar select {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #0d0ddd;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 16px;
+  font-family: century gothic;
+}
+
+.nav-bar select option {
+  font-size: 15px;
+  cursor: pointer;
+}
